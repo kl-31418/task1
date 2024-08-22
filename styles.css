@@ -1,0 +1,86 @@
+/* CSS for styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #5F9EA0;
+  }
+  
+  header {
+    background-color: #708090;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #00BFFF;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #FFFAF0;
+    text-decoration: none;
+  }
+  
+  nav a {
+    color: #8FBC8F;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+
+  nav a:hover {
+    background-color: #FFF0F5;
+    color: #F0FFF0;
+  }
+
+  main {
+    margin: 20px;
+  }
+  
+  section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #8FBC8F;
+  }
+  
+  footer {
+    background-color: #A9A9A9;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+/* Responsive design */
+.container {
+ width: 960px;
+ margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 720px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 720px;
+    padding: 10px;
+  }
+}
